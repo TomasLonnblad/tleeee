@@ -31,7 +31,7 @@ const Staff = React.memo(function Staff(props) {
         material={materials.Wizard_Staff3}
         position={[-0.041, 0.983, 0.768]}
         rotation={[0, Math.PI / 2, 0]}
-        scale={0.04}
+        scale={0.54}
       />
 
     </group>
