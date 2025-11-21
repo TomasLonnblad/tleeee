@@ -19,8 +19,8 @@ const Staff = React.memo(function Staff(props) {
     <group
       {...props}
       dispose={null}
-      scale={[3, 3, 3]}
-      position={[0, -2, 0]}
+           scale={[3, 3, 3]}
+      position={[0, -2, 0.1, 0.06]}
       ref={modelRef}
     >
 
@@ -29,9 +29,9 @@ const Staff = React.memo(function Staff(props) {
         receiveShadow
         geometry={nodes.Wizard_Staff3_Wizard_Staff3_0_3.geometry}
         material={materials.Wizard_Staff3}
-        position={[-0.041, 0.983, 0.768]}
-        rotation={[0, Math.PI / 2, 0]}
-        scale={0.54}
+        position={[-0.061, 0.783, 0.168]}
+        rotation={[0.0001, Math.PI / -4.9, 0.02]}
+        scale={1.59}
       />
 
     </group>
