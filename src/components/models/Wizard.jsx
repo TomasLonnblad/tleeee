@@ -12,7 +12,7 @@ const Wizard = React.memo(function Wizard(props) {
 
   useFrame((state) => {
     modelRef.current.rotation.y =
-      -0.1 + Math.sin(state.clock.elapsedTime) * 0.25;
+   -0.35 + Math.sin(state.clock.elapsedTime) * 0.23;
   });
 
 
