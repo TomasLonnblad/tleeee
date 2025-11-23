@@ -17,11 +17,14 @@ const Wizard = React.memo(function Wizard(props) {
 
 
   return (
-    <group {...props} dispose={null}>
+
           <group ref={modelRef}>
-      <group rotation={[Math.PI / -2.3, 0.01, -0.6]}>
-        <group scale={-0.93}>
-          <group scale={0.0075}>
+    <group {...props} dispose={null}>
+  
+      <group rotation={[Math.PI / 1.8, 0, 2.3]}>
+        <group scale={1.201}>
+          <group scale={0.0055}>
+         
             <group rotation={[Math.PI, 0, 0]} scale={110.41}>
               <mesh
                 castShadow
@@ -149,7 +152,10 @@ const Wizard = React.memo(function Wizard(props) {
                 geometry={nodes.Walls_Walls_0.geometry}
                 material={materials.Walls}
               />
- 
+            </group>
+        </group>       </group>  
+        </group>
+      </group>
       <mesh
         castShadow
         receiveShadow
@@ -159,12 +165,13 @@ const Wizard = React.memo(function Wizard(props) {
         rotation={[0.15, -2.5, 0.15]}
         scale={[4.15, 4.6, 4.732]}
       />
-    </group>
-            </group>
-          </group>
-        </group>
-      </group>
+
+             
+   
 </group>
+
+   
+
   );
 })
 export default Wizard;
