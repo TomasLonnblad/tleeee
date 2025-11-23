@@ -155,9 +155,9 @@ const Wizard = React.memo(function Wizard(props) {
         receiveShadow
         geometry={nodes['tripo_node_d5d7a45d-0f3d-443e-a721-a52008c88198'].geometry}
         material={materials['tripo_mat_d5d7a45d-0f3d-443e-a721-a52008c88198']}
-        position={[-7.1, 0.01, 1.295]}
-        rotation={[-0.008, -0.046, 0.05]}
-        scale={[7.91, 45.253, 7.532]}
+        position={[1.49, 1.247, -2.0]}
+        rotation={[0.15, -2.5, 0.15]}
+        scale={[4.15, 4.6, 4.732]}
       />
     </group>
             </group>
